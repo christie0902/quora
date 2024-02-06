@@ -1,0 +1,96 @@
+.form {
+    width: 30vw;
+    margin-left: 60vw;
+}
+
+.form label {
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.form  #name {
+    border: none;
+    width: 100%;
+    border-bottom: 2px solid blue;
+    height: 1rem;
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+.form textarea {
+    width: 100%;
+    height: 20vh;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 1rem;
+}
+
+.form #submit {
+    padding: 10px;
+    font-size: 1rem; 
+    font-weight: bold;
+    width: 300px;
+    border-radius: 10px;
+    margin-left: 35%;
+    margin-top: 20px; 
+}
+
+.questionContainer {
+    margin-left: 10vw;
+}
+
+.nickname {
+    color: purple;
+    font-size: 2rem;
+    margin-block: 5px;
+}
+
+.questionDisplay {
+    font-size: 1.5rem;
+}
+
+.commentContainer label {
+    font-weight: bold;
+}
+
+.commentContainer input {
+    margin-left: 10px;
+    width: 500px;
+}
+
+.commentContainer .button  {
+    padding: 7px;
+    width: 100px;
+    font-size: 1rem;
+    margin-top: 20px;
+    margin-left: 0;
+    font-weight: bold;
+}
+
+.answer {
+    font-size: 1.2rem;
+}
+
+.answer strong {
+    color: blue;
+}
+
+.likeComponent {
+    display: flex;
+    align-items: center;
+}
+
+.likeComponent button {
+    margin-left: 20px;
+    height: 30px;
+    background-color: rgb(161, 161, 236);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(0, 0, 0);
+}
+
+.likeComponent p {
+    font-weight: bold;
+    color: red;
+}
