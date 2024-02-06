@@ -13,6 +13,8 @@ function App() {
   const handleSubmit = (e) => {
     e.preventDefault();
     setQuestions([...questions,{nickname:nickname, question: questionText}])
+    setNickname("")
+    setQuestionText("")
   }
 
   return (
@@ -28,6 +30,7 @@ function App() {
             type="text"
             name="nickname"
             id="name"
+            value={nickname}
             placeholder="Enter your nickname"
             onChange={handleName}
           />
