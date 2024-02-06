@@ -1,6 +1,8 @@
 .form {
     width: 30vw;
     margin-left: 60vw;
+    border: 3px solid rgb(110, 110, 158);
+    padding: 30px
 }
 
 .form label {
@@ -15,14 +17,16 @@
     height: 1rem;
     font-size: 1rem;
     margin-bottom: 20px;
+    background-color: transparent;
 }
 
 .form textarea {
-    width: 100%;
+    width: 29vw;
     height: 20vh;
     border-radius: 10px;
     padding: 10px;
     font-size: 1rem;
+    background-color: transparent;
 }
 
 .form #submit {
